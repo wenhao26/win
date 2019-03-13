@@ -1,18 +1,26 @@
 {
     "name": "wenhao26/win",
-    "description": "my win project",
+    "description": "the new wenhao26/win",
+    "type": "library",
+    "keywords": [
+        "win",
+        "hujiao",
+        "wenhao26"
+    ],
+    "homepage": "https://github.com/wenhao26/win",
+    "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Hu jiao"
+            "name": "1321471639",
+            "email": "1321471639@qq.com"
         }
     ],
-    "license": "MIT",
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "psr-4": {
-            "Wenhao26\\Win\\": "src/"
+			"Wenhao26\\Win\\": "src/"
         }
     }
 }
